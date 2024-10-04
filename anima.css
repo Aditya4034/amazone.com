@@ -1,0 +1,39 @@
+.main{
+    width: 440px;
+    height: 320px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    margin: 40px 40px;
+    animation: runner 8s linear infinite;
+    transition: all 0.5s;
+}
+@keyframes runner {
+    0%{
+        background: url(./beauty_img.jpg);
+        transform: scale(1.3);
+    }
+    25%{
+        background: url(./box1_image.jpg);
+    }
+    50%{
+        background: url(./box3_image.jpg);
+    }
+    80%{
+        background: url(./box4_image.jpg);
+    }
+    100%{
+        background: url(./box6_image.jpg);
+    }
+}
+/* .box{
+    width: 540px;
+    height: 440px;
+    border: 2px solid aqua;
+} */
+img{
+    width: 540px;
+    height: 400px;
+}
+img:hover{
+    background: url(./box1_image.jpg);
+}
